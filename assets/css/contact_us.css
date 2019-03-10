@@ -1,0 +1,20 @@
+footer{background-color:#1B2330;color:white; display:inline-table !important;width:100%;
+	padding:50px 100px !important;
+}
+footer h1{
+	padding:20px;
+	text-align:center;
+	color:#efefef;
+	font-size:24px;
+
+}
+#address{width: 50%;float: left;padding-right: 8px}
+#phone{width: 50%;float: left;padding-right: 8px}
+footer h3{
+	padding:20px 10px;
+	font-size:18px;
+}
+footer p{
+	padding:10px;
+	color:#999;
+}

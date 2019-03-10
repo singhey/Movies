@@ -1,0 +1,50 @@
+.legend{
+  background:#4ce;
+  text-align:center;color:#fff;
+  padding:16px;
+  text-transform: capitalize;
+}
+.card{
+    display:inline-table;
+    width:100%;
+    border-bottom:1px solid #aaa;
+    padding:24px 60px;
+}
+.card>div{
+    float:left;
+    display:block;
+}
+.bus-icon{
+    width:10%;
+}
+span{
+    
+}
+.bus-details{
+    width:30%;
+}
+.bus-timings{
+    width:20%;
+}
+.seats{
+    width:20%;
+}
+.price{
+    width:20%;
+}
+.price a{
+   text-decoration:none;
+   background:#2cbbc7;
+   padding:8px 16px;
+   color:#fff;
+   margin-left:16px;
+}
+.heading{
+    font-weight:400;
+    font-size:18px;
+    display:block;
+    padding-bottom:16px;
+}
+.sub{
+    color:#666;
+}

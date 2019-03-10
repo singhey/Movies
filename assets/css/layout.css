@@ -1,0 +1,88 @@
+.layout, .details{
+    width:50%;
+    float:left;
+}
+.layout{
+
+}
+.seat-holder{
+    margin-left: 100px !important;
+    padding:56px 16px;
+    background-color:#1b1818;
+    border: 1px solid #aaa;
+    text-align:center;
+    border-radius:30px;
+    margin:auto;
+    display: inline-block;
+    border-top:15px solid #2ae;
+    border-bottom:5px solid #2ae;
+}
+.seat, .blank{
+    display:inline-block;
+    line-height:40px;
+    width:40px;
+    text-align:center;
+    margin:10px;
+    border:1px solid #ccc;
+    border-radius:3px;
+}
+.blank{
+    border:0;
+}
+.seat:hover{
+    background-color:#2ae;
+    color:#fff;
+    cursor:pointer;
+}
+svg{
+    cursor:pointer;
+    margin:4px;
+}
+svg path{
+    fill:#2ae;
+    transition: all .3s linear;
+}
+svg:hover path{
+    fill:#10e;
+}
+.heading{
+    padding:8px 16px 8px;
+    margin:30px 0px 20px;
+    display:block;
+    border-left:3px solid #2ae;
+    text-transform:capitalize;
+    font-size:18px;
+}
+.sub{
+   padding:8px 16px 8px;
+    margin:8px 0px 8px;
+    display:block;
+    border-left:3px solid #2ae;
+    text-transform:capitalize; 
+    color:#212121;
+}
+.bus-timings, .seats, ._p{
+    padding:8px 16px 8px;
+    margin:8px 0px 8px;
+    display:block;
+    border-left:3px solid #2ae;
+    text-transform:capitalize; 
+    color:#212121;
+}
+.bus-timings span{
+    display: block;
+}
+#book-ticket{
+    text-decoration: none;
+    display: inline-block;
+    color:#fff;
+    background-color: #D84E55;
+    padding:8px 32px;
+
+}
+.selected path{
+    fill:green;
+}
+.reserved path{
+    fill:#ccc;
+}
